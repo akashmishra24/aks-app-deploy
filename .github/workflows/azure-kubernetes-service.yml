@@ -10,7 +10,7 @@ env:
   CONTAINER_NAME: "your-container-name"
   RESOURCE_GROUP: "rg-iac-cox-poc-01"
   CLUSTER_NAME: "aks-poc"
-  DEPLOYMENT_MANIFEST_PATH: "./aks-deploy.yaml"
+  DEPLOYMENT_MANIFEST_PATH: "./nginx-app.yaml"
 
 jobs:
   buildImage:
