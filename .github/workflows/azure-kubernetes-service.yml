@@ -7,7 +7,7 @@ on:
 
 env:
   AZURE_CONTAINER_REGISTRY: "acrakspoc0202"
-  CONTAINER_NAME: "your-container-name"
+  CONTAINER_NAME: "aksdemo"
   RESOURCE_GROUP: "rg-iac-cox-poc-01"
   CLUSTER_NAME: "aks-poc"
   DEPLOYMENT_MANIFEST_PATH: "./nginx-app.yaml"
